@@ -1,0 +1,230 @@
+{
+    "root": {
+        "data": {
+            "id": "cqaknzkwb540",
+            "created": 1675594467140,
+            "text": "Redis"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cqakw6962n40",
+                    "created": 1675595108582,
+                    "text": "简介"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cqakwc2mqiw0",
+                    "created": 1675595121247,
+                    "text": "数据类型"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cqakxgvqzfk0",
+                            "created": 1675595210079,
+                            "text": "5种基础数据类型"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cqalaljukzc0",
+                                    "created": 1675596238977,
+                                    "text": "String;List;Set;Hash;ZSet"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cqakxnsq7eg0",
+                            "created": 1675595225134,
+                            "text": "3种特殊数据结构"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cqala0spjr40",
+                                    "created": 1675596193801,
+                                    "text": "HyperLogLogs：基数统计"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cqalaa9cm9c0",
+                                    "created": 1675596214398,
+                                    "text": "Bitmap：位存储"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cqalaf1rork0",
+                                    "created": 1675596224823,
+                                    "text": "Geospatial：地理位置"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cqakwi914og0",
+                    "created": 1675595134695,
+                    "text": "缓存"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cqakxwu2ijs0",
+                            "created": 1675595244806,
+                            "text": "缓存三大问题"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cqakxz05alc0",
+                                    "created": 1675595249527,
+                                    "text": "缓存穿透：查询了数据库中不存在的数据，导致每次都进入DB"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cqaky0vx22o0",
+                                    "created": 1675595253625,
+                                    "text": "缓存击穿：并发查询数据库中存在但缓存中没有的数据，多个请求进入DB"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cqakyc48n9k0",
+                                    "created": 1675595278073,
+                                    "text": "缓存雪崩：缓存中数据大批量到期，大量请求进入DB，导致崩溃"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cqakwjoq6mg0",
+                    "created": 1675595137820,
+                    "text": "持久化"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cqakwvj38eo0",
+                            "created": 1675595163601,
+                            "text": "RDB"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cqakwwwkeew0",
+                            "created": 1675595166593,
+                            "text": "AOF"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cqakwm2bfp40",
+                    "created": 1675595142996,
+                    "text": "事务"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cqakwnec89c0",
+                    "created": 1675595145899,
+                    "text": "集群方案"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cqal52ydznk0",
+                            "created": 1675595806677,
+                            "text": "主从复制"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cqal5498fj40",
+                            "created": 1675595809509,
+                            "text": "哨兵模式"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cqal58kay6g0",
+                            "created": 1675595818886,
+                            "text": "Redis Cluster"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cqakwr3i5eo0",
+                    "created": 1675595153951,
+                    "text": "发布/订阅模型"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cqal940tacg0",
+                    "created": 1675596122457,
+                    "text": "多场景"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cqal9662xeo0",
+                            "created": 1675596127129,
+                            "text": "分布式锁"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cqal97so9jk0",
+                            "created": 1675596130672,
+                            "text": "限流"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cqal99hcskw0",
+                            "created": 1675596134341,
+                            "text": "消息队列"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue-compat",
+    "version": "1.4.43"
+}

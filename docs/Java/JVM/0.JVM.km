@@ -1,0 +1,72 @@
+{
+    "root": {
+        "data": {
+            "id": "cqaljdfc9gg0",
+            "created": 1675596926568,
+            "text": "JVM"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cqaljfiuisw0",
+                    "created": 1675596931134,
+                    "text": "内存管理"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cqaljzirtdk0",
+                            "created": 1675596974665,
+                            "text": "内存分区"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cqalk2e41so0",
+                            "created": 1675596980913,
+                            "text": "垃圾收集器"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cqalkak0hzc0",
+                    "created": 1675596998684,
+                    "text": "类管理"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cqalkjdo4680",
+                            "created": 1675597017892,
+                            "text": "类文件结构"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cqalkn7q42o0",
+                            "created": 1675597026239,
+                            "text": "类加载机制"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cqalktsiork0",
+                            "created": 1675597040557,
+                            "text": "字节码执行引擎"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue-compat",
+    "version": "1.4.43"
+}

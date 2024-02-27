@@ -1,0 +1,183 @@
+{
+    "root": {
+        "data": {
+            "id": "cq4nftjr49c0",
+            "created": 1674992930686,
+            "text": "知识图谱"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cq4nfyrr6q00",
+                    "created": 1674992942054,
+                    "text": "Java",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cq4nkmxm13k0",
+                            "created": 1674993308108,
+                            "text": "JVM",
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cq4nkhh24z40",
+                            "created": 1674993296223,
+                            "text": "并发编程"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cq4nh3htqa80",
+                    "created": 1674993030702,
+                    "text": "Spring"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cq4nhf2ejuw0",
+                            "created": 1674993055891,
+                            "text": "Spring"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cq4nhhlk4gw0",
+                            "created": 1674993061403,
+                            "text": "SpringBoot"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cq4nhj1gn7c0",
+                            "created": 1674993064541,
+                            "text": "SpringCloud"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cq4nh5xcyg00",
+                    "created": 1674993035995,
+                    "text": "数据库"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cq4nh7hxk880",
+                            "created": 1674993039415,
+                            "text": "MySQL"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cq4nh9wdza80",
+                            "created": 1674993044643,
+                            "text": "Redis"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cq4nhngpwc80",
+                    "created": 1674993074171,
+                    "text": "消息中间件"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cq4ni0jsh740",
+                            "created": 1674993102655,
+                            "text": "RabbitMQ"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cq4ni8a9xhc0",
+                            "created": 1674993119493,
+                            "text": "Kafka"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cq4ni2ow3kw0",
+                            "created": 1674993107317,
+                            "text": "RocketMQ"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cq4nk1hxdkw0",
+                    "created": 1674993261447,
+                    "text": "云原生"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cq4nk5jvtcg0",
+                            "created": 1674993270272,
+                            "text": "K8S"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cq4njbgeq200",
+                    "created": 1674993204759,
+                    "text": "内功心法"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cq4njr44js00",
+                            "created": 1674993238845,
+                            "text": "设计模式"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cq4njdw22q00",
+                            "created": 1674993210059,
+                            "text": "数据结构",
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cq4njfncszk0",
+                            "created": 1674993213886,
+                            "text": "算法"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue-compat",
+    "version": "1.4.43"
+}

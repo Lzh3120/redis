@@ -1,0 +1,30 @@
+{
+    "root": {
+        "data": {
+            "id": "cqalljkl0f40",
+            "created": 1675597096674,
+            "text": "并发编程"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cqallu1pz540",
+                    "created": 1675597119478,
+                    "text": "Java内存模型"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cqalmmaexk00",
+                    "created": 1675597180954,
+                    "text": "锁"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue-compat",
+    "version": "1.4.43"
+}

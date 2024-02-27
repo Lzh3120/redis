@@ -1,0 +1,344 @@
+{
+    "root": {
+        "data": {
+            "id": "cpslbvey7uo0",
+            "created": 1673768259593,
+            "text": "Mysql"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cq827ec2hnk0",
+                    "created": 1675339267175,
+                    "text": "基础架构",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cpslbxewaa80",
+                    "created": 1673768263943,
+                    "text": "存储引擎",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cpslil7m8c80",
+                            "created": 1673768785931,
+                            "text": "MyISAM",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cpslio92yw00",
+                            "created": 1673768792550,
+                            "text": "InnoDB",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cpslc6qqlg00",
+                    "created": 1673768284251,
+                    "text": "索引",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cpsllzy8p280",
+                            "created": 1673769053108,
+                            "text": "聚簇索引",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cpslm2yw4oo0",
+                            "created": 1673769059678,
+                            "text": "非聚簇索引",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cpslm4ovitc0",
+                            "created": 1673769063426,
+                            "text": "常见索引种类",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cpslm7swxg00",
+                            "created": 1673769070200,
+                            "text": "索引使用和优化",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cpslrlx00yo0",
+                                    "created": 1673769492743,
+                                    "text": "索引遵循左匹配原则",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cpslrw6i9dc0",
+                                    "created": 1673769515086,
+                                    "text": "对于like xx%索引会失效",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cpslscum01s0",
+                                    "created": 1673769551372,
+                                    "text": "索引可以用= in union or 以及一些范围查询",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cpslsnqxc1s0",
+                                    "created": 1673769575094,
+                                    "text": "可以用expiain语句分析索引使用情况",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cpslc4qe6f40",
+                    "created": 1673768279876,
+                    "text": "锁",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cpsljlut3mg0",
+                            "created": 1673768865697,
+                            "text": "行锁",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cpslk67th3k0",
+                                    "created": 1673768910020,
+                                    "text": "InnoDB三种行锁",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cpslkazfwtc0",
+                                            "created": 1673768920397,
+                                            "text": "记录锁 Record Locks",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cpslkd3hctc0",
+                                            "created": 1673768924995,
+                                            "text": "间隙锁 Gap Locks",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cpslkf92mls0",
+                                            "created": 1673768929687,
+                                            "text": "临键锁 Next-Key Locks",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cpsljmpdo6o0",
+                            "created": 1673768867546,
+                            "text": "表锁",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cpsll44ugo80",
+                                    "created": 1673768983851,
+                                    "text": "无死锁，粒度最大，发生冲突最高，并发度最低",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cpsljnlevzc0",
+                            "created": 1673768869483,
+                            "text": "页锁",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cpsllfiq0r40",
+                                    "created": 1673769008634,
+                                    "text": "每次锁相邻一组记录",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cpsllnmlj000",
+                                    "created": 1673769026283,
+                                    "text": "锁的粒度介于行锁和表锁之间",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cq828ffsv600",
+                    "created": 1675339347942,
+                    "text": "事务隔离",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cq828kv9exc0",
+                    "created": 1675339359761,
+                    "text": "日志",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cq828ytom6o0",
+                            "created": 1675339390140,
+                            "text": "redo log"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cq8291pufgo0",
+                            "created": 1675339396439,
+                            "text": "undo log"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cq82935kev40",
+                            "created": 1675339399566,
+                            "text": "binlog"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cpslcc517gg0",
+                    "created": 1673768295999,
+                    "text": "事务ACID实现",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cpslsxrafzk0",
+                            "created": 1673769596884,
+                            "text": "原子性",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cpslsyxlzko0",
+                            "created": 1673769599443,
+                            "text": "一致性",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cpslt0adats0",
+                            "created": 1673769602391,
+                            "text": "持久性",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cpslt1pddmg0",
+                            "created": 1673769605475,
+                            "text": "隔离性",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cqdzufucgrc0",
+                    "created": 1675941969243,
+                    "text": "Mysql专栏"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cqdzuhncza80",
+                            "created": 1675941973175,
+                            "text": "Mysql 45讲  https://doc.vercel.app/mysql/article/68319.html"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue-compat",
+    "version": "1.4.43"
+}
